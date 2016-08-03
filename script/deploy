@@ -1,6 +1,6 @@
 #!/bin/sh
  
-ssh app@ec2-52-41-184-100.us-west-2.compute.amazonaws.com <<EOF
+ssh ec2-user@ec2-52-41-184-100.us-west-2.compute.amazonaws.com <<EOF
   cd ~/hello-jenkins
   git pull
   npm install --production
